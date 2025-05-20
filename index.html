@@ -22,7 +22,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg bg-danger" data-bs-theme="dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="img/logo.png" alt="boardgamecafe" width="40" height="40" class="d-inline-block align-text-top"
@@ -70,13 +70,13 @@
 
 
 <div class="container my-5">
-
     <div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+
         <div class="col">
-            <div class="card h-100">
-                <img src="img/tapestry.webp" class="card-img-top" alt="...">
+            <div class="card h-100 bg-dark shadow-sm hover-shadow transition" style="transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                <img src="img/tapestry.webp" class="card-img-top" alt="tapestry">
                 <div class="card-body">
-                    <p class="card-text" style="font-family: 'Playwrite HU', sans-serif;">
+                    <p class="card-text" style="font-family: 'Playwrite HU', sans-serif; color: #20c997">
                         Tapestry is a civilization-building game where players advance on technology, exploration, military, and science tracks. Unique powers and strategic planning create rich, evolving narratives across eras in stunning visual style.
                     </p>
                 </div>
@@ -84,33 +84,42 @@
         </div>
 
         <div class="col">
-            <div class="card h-100">
-                <img src="img/catan.webp" class="card-img-top" alt="...">
+            <div class="card h-100 bg-dark shadow-sm hover-shadow transition" style="transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                <img src="img/catan.webp" class="card-img-top" alt="catan">
                 <div class="card-body">
-                    <p class="card-text" style="font-family: 'Playwrite HU', sans-serif;">
-                        Catan is a strategic board game where players collect, trade, and build settlements to earn victory points. Dice rolls, resource management, and smart negotiation drive this engaging, ever-changing island adventure.                </div>
+                    <p class="card-text" style="font-family: 'Playwrite HU', sans-serif; color: #20c997">
+                        Catan is a strategic board game where players collect, trade, and build settlements to earn victory points. Dice rolls, resource management, and smart negotiation drive this engaging, ever-changing island adventure.
+                    </p>
+                </div>
             </div>
         </div>
 
         <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 bg-dark shadow-sm hover-shadow transition" style="transition: transform 0.3s ease, box-shadow 0.3s ease;">
                 <img src="img/avelonn.jpg" class="card-img-top" alt="avelon">
                 <div class="card-body">
-                    <p class="card-text" style="font-family: 'Playwrite HU', sans-serif;">
+                    <p class="card-text" style="font-family: 'Playwrite HU', sans-serif; color: #20c997">
                         Avalon is a social deduction game of hidden roles and deception. Loyal knights and evil minions clash in secret, using logic, bluffing, and teamwork to guide or sabotage missions.
+                    </p>
                 </div>
             </div>
         </div>
 
     </div>
 </div>
+<style>
+    .hover-shadow:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+</style>
 
 
 
 
 
 
-<footer class="bg-light text-center py-4">
+<footer class="bg-danger text-center py-4">
     <div class="container">
 
         <div class="mb-3">
